@@ -162,7 +162,35 @@ nav ul li a{
 /* footer styles */
 footer{
     display: flex;
+    gap: 110px;
     background: #FFF8F3;
     margin-top: 110px;
     padding: 130px 200px;
+}
+footer .section-descript{
+    color:#474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    width: 100%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.footer-right{
+    width: 100%;
 }
