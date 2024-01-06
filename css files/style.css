@@ -89,7 +89,7 @@ nav ul li a{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    margin: 30px 0px;
+    margin: 30px 30px;
   }
   .about-info-container{
     display: flex;
@@ -103,4 +103,10 @@ nav ul li a{
   }
   .info-descript{
     font-weight: 700;
+  }
+  .section-descript{
+    padding: 30px 0 50px 0;
+  }
+  .skill-container{
+    display: flex;
   }
