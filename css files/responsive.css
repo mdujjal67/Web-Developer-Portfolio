@@ -1,3 +1,4 @@
+/* responsive stles for large device like tablet */
 @media screen and (min-width:768px) and (max-width:992px) {
     .header{
         background-size: contain;
@@ -93,6 +94,21 @@
         width: 75%;
         margin-top: 25px;
         padding: 15px 35px;
+      }
+    
+}
+
+
+/* responsive styles for small device */
+@media screen and (max-width:576px) {
+    .header {
+        background: none;
+        background-color: #FFF8F3;
+      
+    }
+    nav {
+        display: flex;
+        margin: 0 200px;
       }
 
 }
